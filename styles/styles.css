@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Ptrootui.woff") format('woff');
+}
+@font-face {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Ptrootuimedium.woff") format('woff');
+}
+@font-face {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Ptrootuibold.woff") format('woff');
+}
+
+:root {
+    --dark: #23201F;
+    --orange: #FA5B3D;
+    --white: #FAFAFA;
+    --blue: #1C5F87;
+    --light-blue: #CFE1EB;
+}
+
+body {
+    /* width: 1170px; */
+    min-width: 1366px;
+    background-color: var(--white);
+    margin: 0 auto;
+    padding: 0;
+    
+    font-family: 'PT Root UI', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px; /* or 140% */
+    color: var(--dark);
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
