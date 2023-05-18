@@ -20,11 +20,6 @@
 
 }
 
-a.main-navigation__logo:hover,
-a.main-navigation__logo:focus-visible {
-   border: none;
-}
-
 .main-navigation__rates-list {
    display: flex;
    flex-wrap: wrap;

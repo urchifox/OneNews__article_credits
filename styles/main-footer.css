@@ -1,0 +1,110 @@
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.main-footer__container {
+    margin: 0 auto;
+    padding: 40px 98px;
+    width: 1170px;
+    max-height: 150px;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-footer__socials-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 189px;
+}
+
+.main-footer__socials-item {
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 50%;
+}
+
+.main-footer__socials-link {
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-footer__form-desc {
+    width: 284px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.main-footer__form-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.main-footer__form_input {
+    width: 238px;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+}
+.main-footer__form_input::placeholder {
+    color:var(--white);
+    opacity: 0.6;
+}
+
+.main-footer__form_subscribe-btn {
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-footer__copyright {
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-footer__copyright_row:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.main-footer__copyright-sign {
+    opacity: 0.3;
+}

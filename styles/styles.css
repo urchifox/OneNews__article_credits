@@ -26,12 +26,13 @@
 }
 
 body {
-    /* width: 1170px; */
-    width: 1366px;
+    position: relative;
     min-height: 100vh;
-    background-color: var(--white);
+    width: 1170px;
+    padding: 0 98px;
     margin: 0 auto;
-    padding: 0;
+
+    background-color: var(--white);
     
     font-family: 'PT Root UI', "Arial", sans-serif;
     font-style: normal;
@@ -41,6 +42,12 @@ body {
     color: var(--dark);
 
     outline: 1000px solid lightgray;
+}
+
+main {
+    width: 970px;
+    margin: 0 auto;
+    padding: 50px 0 230px 0;
 }
 
 .visually-hidden {
@@ -69,12 +76,36 @@ display: block;
 }
 
 
-
-a[href]:hover,
-a[href]:focus-visible {
-opacity: 0.7;
-border-bottom: 1px solid var(--dark);
+.width-700 {
+    width: 700px;
 }
-a[href]:active {
-opacity: 0.4;
+
+
+[class*="-link"][href]:hover,
+[class*="-link"][href]:focus-visible {
+    opacity: 0.7;
+    border-bottom: 1px solid var(--dark);
+}
+[class*="-link"][href]:active {
+    opacity: 0.4;
+}
+[class*="-link"][href]:has(img):hover,
+[class*="-link"][href]:has(img):focus-visible {
+    border: none;
+}
+
+
+
+[class*="-btn"]:hover,
+[class*="-btn"]:focus-visible {
+    opacity: 0.7;
+    cursor: pointer;
+}
+[class*="-btn"]:active {
+    opacity: 0.4;
+}
+[class*="-btn"]:disabled {
+    background-color: lightgray;
+    color: rgb(78, 78, 78);
+    cursor: default;
 }
