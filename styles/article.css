@@ -130,3 +130,146 @@ h3 {
 .contents-link[href]:focus-visible {
     border: none;
 }
+
+.stripped-bg {
+    padding: 5px;
+    background-color: var(--blue);
+    /* background-image: repeating-linear-gradient(45deg, 7px var(--blue), 7px var(--dark)); */
+    background-image: repeating-linear-gradient(-45deg, var(--blue) 0, var(--blue) 10px, var(--dark) 10px, var(--dark) 13px);
+    margin-bottom: 30px;
+}
+
+.article__note {
+    background-color: white;
+    padding: 20px;
+}
+
+.article__note-text {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.article__note-text:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.article__note-link {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; /* identical to box height, or 125% */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #1C5F87;
+}
+
+.article__note-link[href]:hover,
+.article__note-link[href]:focus-visible {
+    border: none;
+}
+
+.block-with-right-aside {
+    position: relative;
+}
+.right-aside {
+    position: absolute;
+    top: 0;
+    right: -270px;
+    width: 170px;
+}
+.right-aside-link {
+    font-size: 18px;
+    line-height: 24px; /* or 133% */
+    text-decoration-line: underline;
+    color: var(--blue);
+}
+.right-aside-link[href]:hover,
+.right-aside-link[href]:focus-visible {
+    border: none;
+}
+
+.figure {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.figure__caption {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px; /* identical to box height, or 129% */
+}
+
+.table-credits-geo {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+}
+.table-credits-geo thead,
+.table-credits-geo tfoot {
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: var(--blue);
+}
+
+.table-credits-geo td {
+    border: 1px solid rgba(35, 32, 31, 0.6);
+    padding: 12px 25px;
+    text-align: center;
+}
+.table-credits-geo  .first-col {
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+}
+.table-credits-geo  :not(.first-col){
+    width: 166px;
+    box-sizing: border-box;
+}
+.table-credits-geo thead td {
+    padding: 9px;
+}
+
+.pie-chart  {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.table-debts-geo {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px; /* identical to box height, or 125% */
+}
+.table-debts-geo thead {
+    font-weight: 500;
+}
+.table-debts-geo td {
+    /* border: 1px solid rgba(35, 32, 31, 0.6); */
+    padding: 10px 20px;
+    text-align: center;
+}
+.table-debts-geo  .first-col {
+    text-align: left;
+    width: 204px;
+    box-sizing: border-box;
+}
+.table-debts-geo  :not(.first-col){
+    width: 122px;
+    box-sizing: border-box;
+}
+.table-debts-geo thead td {
+    padding: 27px 20px;
+}
+.table-debts-geo tbody tr:nth-child(odd) {
+    background-color: var(--light-blue);
+    border-radius: 4px;
+}
+.table-debts-geo td:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.table-debts-geo td:last-child {
+    border-radius: 0 4px 4px 0;
+}
