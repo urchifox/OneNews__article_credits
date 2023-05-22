@@ -22,6 +22,7 @@
     --orange: #FA5B3D;
     --white: #FAFAFA;
     --blue: #1C5F87;
+    --blue-rgb: 28, 95, 135;
     --light-blue: #CFE1EB;
 }
 
@@ -75,11 +76,28 @@ img {
 display: block;
 }
 
+mark {
+    background-color: var(--light-blue);
+}
 
 .width-700 {
     width: 700px;
 }
 
+
+.two-columns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.stripped-bg {
+    padding: 5px;
+    background-color: var(--blue);
+    /* background-image: repeating-linear-gradient(45deg, 7px var(--blue), 7px var(--dark)); */
+    background-image: repeating-linear-gradient(-45deg, var(--blue) 0, var(--blue) 10px, var(--dark) 10px, var(--dark) 13px);
+    margin-bottom: 30px;
+}
 
 [class*="-link"][href]:hover,
 [class*="-link"][href]:focus-visible {

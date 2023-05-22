@@ -1,0 +1,57 @@
+.bar-chart {
+    width: 670px;
+}
+
+.bar-chart__row {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 20px; /* identical to box height, or 125% */
+}
+.bar-chart__row:last-child {
+    margin-bottom: 0;
+}
+.bar-chart__definition {
+    padding: 5px 5px 5px 0;
+}
+
+.bar-chart__value {
+    margin: 0;
+    padding: 6px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.bar-chart__value-40  {
+    background-color: var(--orange);
+}
+.bar-chart__value-20  {
+    background-image: linear-gradient(to right, 
+                        var(--orange) 335px,
+                        rgba(var(--blue-rgb), 0.05) 335px );
+}
+.bar-chart__value-15  {
+    background-image: linear-gradient(to right, 
+                        var(--orange) 252px,
+                        rgba(var(--blue-rgb), 0.05) 252px );
+}
+.bar-chart__value-8  {
+    background-image: linear-gradient(to right, 
+                        var(--orange) 134px,
+                        rgba(var(--blue-rgb), 0.05) 134px );
+}
+.bar-chart__value-5  {
+    background-image: linear-gradient(to right, 
+                        var(--orange) 84px,
+                        rgba(var(--blue-rgb), 0.05) 84px );
+}
+.bar-chart__value-4  {
+    background-image: linear-gradient(to right, 
+                        var(--orange) 67px,
+                        rgba(var(--blue-rgb), 0.05) 67px );
+}
+.bar-chart__value-3  {
+    background-image: linear-gradient(to right, 
+                        var(--orange) 50px,
+                        rgba(var(--blue-rgb), 0.05) 50px );
+}

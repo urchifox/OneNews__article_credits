@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/main-header.css">
     <link rel="stylesheet" href="styles/article.css">
+    <link rel="stylesheet" href="styles/table-net.css">
+    <link rel="stylesheet" href="styles/table-stripped.css">
+    <link rel="stylesheet" href="styles/bar-chart.css">
+    <link rel="stylesheet" href="styles/ordered-list.css">
     <link rel="stylesheet" href="styles/main-footer.css">
 </head>
 
@@ -176,9 +180,9 @@
                 <p>Чаще всего за кредитами обращаются жители Сибирского и Уральского федеральных округов: доля выплачивающих кредит или ипотеку составляет 43% и 38% соответственно (в целом по стране эта цифра составляет 32%).</p>
                 <p>Жители ЦФО реже обращаются в банки за кредитами — задолженность имеют всего 27%. Чаще всего здесь берут займ на ипотеку – 47% от общего объема кредитов против 37% в целом по стране.</p>
                 <p>А самое большое количество потребительских кредитов берут в Приволжском ФО — 70% от общего объема выдаваемых банками займов.</p>
-                <h3>Информация о кредитах по федеральным округам, млн. ₽</h3>
                 <figure class="figure">
-                    <table class="table-credits-geo">
+                    <h3>Информация о кредитах по федеральным округам, млн. ₽</h3>
+                    <table class="table-net">
                         <thead>
                             <tr>
                                 <td rowspan="2">Федеральный округ</td>
@@ -274,10 +278,10 @@
                     <aside class="right-aside">
                         <a href="" class="right-aside-link">Как получить льготную ипотеку под 6%</a>
                     </aside>
-                    <h3>Просроченная задолженность по кредитам, млн ₽</h3>
                 </div>
                 <figure class="figure">
-                    <table class="table-debts-geo">
+                    <h3>Просроченная задолженность по кредитам, млн ₽</h3>
+                    <table class="table-stripped">
                         <thead>
                             <tr>
                                 <td class="first-col">Федеральный округ</td>
@@ -328,7 +332,153 @@
                     <figcaption  class="figure__caption">Данные предоставлены Федеральным Кредитным Бюро</figcaption>
                 </figure>
                 <p>Самыми ответственными заемщиками являются семейные полные пары с двумя и более детьми, а также пенсионеры. А среднестатистический должник в России — это мужчина или женщина в разводе в возрасте 30–45 лет, со средним специальным образованием.</p>
+                <figure class="figure">
+                    <h3>На что тратят деньги россияне</h3>
+                    <div class="block-with-right-aside">
+                        <dl class="bar-chart">
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Покупка продуктов</dt>
+                                <dd class="bar-chart__value bar-chart__value-40">40%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Кредиты</dt>
+                                <dd class="bar-chart__value bar-chart__value-20">20%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Усуги ЖКХ</dt>
+                                <dd class="bar-chart__value bar-chart__value-15">15%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Бытовые товары и услуги</dt>
+                                <dd class="bar-chart__value bar-chart__value-8">8%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Одежда</dt>
+                                <dd class="bar-chart__value bar-chart__value-5">5%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Здравоохранение</dt>
+                                <dd class="bar-chart__value bar-chart__value-5">5%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Отдых</dt>
+                                <dd class="bar-chart__value bar-chart__value-4">4%</dd>
+                            </div>
+                            <div class="bar-chart__row">
+                                <dt class="bar-chart__definition">Другое</dt>
+                                <dd class="bar-chart__value bar-chart__value-3">3%</dd>
+                            </div>
+                        </dl>
+                        <figcaption class="figure__caption">По данным опроса РусБанка в 2019 году</figcaption>
+                        <asode class="right-aside">
+                            <a href="" class="right-aside-link">Как и зачем вести семейный бюджет</a>
+                        </asode>
+                    </div>
+                </figure>
             </section>
+            <section class="width-700">
+                <h2>Как выплатить кредиты</h2>
+                <div class="block-with-right-aside">
+                    <p>Если ваш платеж по кредиту составляет 20% и более от общего заработка, то вы находитесь в группе риска. Несмотря на то, что сейчас вам, возможно, нетрудно выплачивать задолжность, вы не застрахованы от ситуаций, когда выплачивать кредит будет нечем. Что будет, если вы заболеете или лишитесь работы?</p>
+                    <p>
+                        <mark>Необходимо пересмотреть свою кредитную нагрузку, оптимизировать платежи и снизить переплату.</mark>
+                    </p>
+                    <aside class="right-aside">
+                        <a href="" class="right-aside-link">Что делать, если кредитная история испорчена?</a>
+                    </aside>
+                </div>
+                <h3>Что делать?</h3>
+                <ul class="ordered-list">
+                    <li class="ordered-item">
+                        Экономия
+                        <ul class="ordered-list">
+                            <li class="ordered-item">Ведите бюджет</li>
+                            <li class="ordered-item">Расчитайте и записывайте все расходы</li>
+                            <li class="ordered-item">Уберите ненужные траты</li>
+                        </ul>
+                    </li>
+                    <li class="ordered-item">
+                        Приоритетность кредитов (если их несколько)
+                        <ul class="ordered-list">
+                            <li class="ordered-item">Составьте рейтинг своих кредитов по проценту ставки</li>
+                            <li class="ordered-item">Рассчитайте, какой кредит выгоднее закрыть первым</li>
+                            <li class="ordered-item">Досрочным платежем закрывайте кредит</li>
+                        </ul>
+                    </li>
+                    <li class="ordered-item">
+                        Планирование платежей
+                        <ul class="ordered-list">
+                            <li class="ordered-item">Составьте табличку и посчитайте экономию при досрочных платежах</li>
+                            <li class="ordered-item">Воспользуйтесь <a href="" class="basic-link">нашим калькулятором</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>При составлении таблицы воспользуйтесь формулой расчета ежемесячного платежа:</p>
+                <div class="two-columns">
+                    <div class="stripped-bg">
+                        <div class="formula"> <sup></sup>
+                            (<var>P</var> x (1 + <var>P</var>)<var><sup>k</sup></var>) / ((1 + <var>P</var>)<var><sup>k</sup></var> - 1)
+                        </div>
+                    </div>
+                    <dl class="formula__desc">
+                        <div class="formula__item">
+                            <dt class="formula__var">P</dt>
+                            <dd class="formula__item-meaning">месячная процентная ставка</dd>
+                        </div>
+                        <div class="formula__item">
+                            <dt class="formula__var">k</dt>
+                            <dd class="formula__item-meaning">количество платежей</dd>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+            <section class="width-700">
+                <h1>Просроченные платежи по кредиту</h1>
+                <p>Просроченные платежи – это плохо, особенно если вы не платите банку уже давно. Такой долг испортит кредитную историю, и вы вряд ли сможете когда-то получить другой кредит. <mark>А еще банк может в любой момент подать на вас в суд или продать долг коллекторам.</mark></p>
+                <p>Но если вдруг с вами произошла такая ситуация, следуйте нашей инструкции, постарайтесь договориться с банком и как можно раньше погасить долг.</p>
+                <div class="simple-ordered-list__container">
+                    <h3>Что делать, если просрочили платежи по кредиту</h3>
+                    <ol class="simple-ordered-list">
+                        <li class="simple-ordered-item">На сайте ФССПУ проверьте, что по кредиту не возбуждено исполнительное производство</li>
+                        <li class="simple-ordered-item">Запросите свою кредитную историю в БКИ. Так вы узнаете, кому принадлежит долг и какого он размера.</li>
+                    </ol>
+                    <div class="stripped-bg">
+                        <div class="article__note">
+                            <p class="article__note-text">Не надейтесь, что срок исковой давности истечет и долг забудется. Он все равно испортит вашу кредитную историю.</p>
+                        </div>
+                    </div>
+                    <ol class="simple-ordered-list">
+                        <li class="simple-ordered-item">Позвоните в банк и скажите, что решили выплатить кредит. Банк может пойти навстречу.</li>
+                        <li class="simple-ordered-item">Пока платите, проверяйте кредитную историю, убедитесь, что банк вовремя сообщает в БКИ, что вы гасите долг.</li>
+                        <li class="simple-ordered-item">Погасив кредит, попросите в банке справку об отсутствии задолженности.</li>
+                    </ol>
+                </div>
+            </section>
+            <footer class="width-700 article-footer">
+                <div class="article-footer__meta">
+                    <dl class="article-footer__meta-info">
+                        <div  class="article-footer__meta-info-item">
+                            <dt class="article-footer__meta-info_name visually-hidden">Дата публикации</dt>
+                            <dd class="article-footer__meta-info_description"> <time datetime="2020-07-18">18.07.2020</time> </dd>
+                        </div>
+                        <div class="article-footer__meta-info-item">
+                            <dt class="article-footer__meta-info_name visually-hidden">Количество просмотров</dt>
+                            <dd class="article-footer__meta-info_description article-footer__meta-info_description-view">50k</dd>
+                        </div>
+                        <div class="article-footer__meta-info-item">
+                            <dt class="article-footer__meta-info_name">Теги:</dt>
+                            <dd class="article-footer__meta-info_description">
+                                <ul class="article-footer__meta-info_description-list">
+                                    <li class="article-footer__meta-info_description-item">кредит</li>
+                                    <li class="article-footer__meta-info_description-item">долги</li>
+                                    <li class="article-footer__meta-info_description-item">статистика</li>
+                                    <li class="article-footer__meta-info_description-item">банкротство</li>
+                                </ul>
+                            </dd>
+                        </div>
+                    </dl>
+                </div>
+            </footer>
         </article>
     </main>
 
