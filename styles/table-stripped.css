@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 .table-stripped thead td {
-    padding: 27px 20px;
+    padding: 0 20px 27px 20px;
 }
 .table-stripped tbody tr:nth-child(odd) {
     background-color: var(--light-blue);

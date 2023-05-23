@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'PT Root UI';
+    font-family: 'PT Root UI', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/Ptrootui.woff") format('woff');
 }
 @font-face {
-    font-family: 'PT Root UI';
+    font-family: 'PT Root UI, 'Arial', sans-serif';
     font-style: normal;
     font-weight: 500;
     src: url("../fonts/Ptrootuimedium.woff") format('woff');
 }
 @font-face {
-    font-family: 'PT Root UI';
+    font-family: 'PT Root UI', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/Ptrootuibold.woff") format('woff');
@@ -29,7 +29,6 @@
 body {
     position: relative;
     min-height: 100vh;
-    width: 1170px;
     padding: 0 98px;
     margin: 0 auto;
 
@@ -42,7 +41,7 @@ body {
     line-height: 28px; /* or 140% */
     color: var(--dark);
 
-    outline: 1000px solid lightgray;
+    /* outline: 1000px solid lightgray; */
 }
 
 main {
@@ -62,18 +61,18 @@ main {
 }
 
 .list-reset {
-list-style: none;
-padding: 0;
-margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link-reset {
-color: inherit;
-text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 img {
-display: block;
+    display: block;
 }
 
 mark {
@@ -83,7 +82,6 @@ mark {
 .width-700 {
     width: 700px;
 }
-
 
 .two-columns {
     display: flex;
@@ -96,8 +94,8 @@ mark {
     background-color: var(--blue);
     /* background-image: repeating-linear-gradient(45deg, 7px var(--blue), 7px var(--dark)); */
     background-image: repeating-linear-gradient(-45deg, var(--blue) 0, var(--blue) 10px, var(--dark) 10px, var(--dark) 13px);
-    margin-bottom: 30px;
 }
+
 
 [class*="-link"][href]:hover,
 [class*="-link"][href]:focus-visible {
