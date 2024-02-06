@@ -1,0 +1,57 @@
+.half-hidden {
+    max-height: 958px;
+    overflow: hidden;
+    position: relative;
+}
+.half-hidden::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 220px;
+    background-image: linear-gradient(to top, var(--white), transparent);
+}
+
+.continue-reading {
+    margin-top: 28px;
+}
+
+.continue-reading__text {
+    text-align: center;
+    width: 530px;
+    margin: 0 auto 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+.continue-reading__btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.continue-reading__subscribe-btn,
+.continue-reading__sign-up-btn {
+    width: 250px;
+    /* height: 52px; */
+    padding: 13px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px; /* identical to box height, or 144% */
+    text-align: center;
+
+}
+.continue-reading__subscribe-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+}
+.continue-reading__sign-up-btn {
+    background-color: transparent;
+    color: var(--dark);
+    border: 1px solid var(--dark);
+}

@@ -14,7 +14,7 @@
 
 .table-net td {
     border: 1px solid rgba(35, 32, 31, 0.6);
-    padding: 12px 25px;
+    padding: 11px 24px;
     text-align: center;
 }
 .table-net  .first-col {
@@ -27,5 +27,5 @@
     box-sizing: border-box;
 }
 .table-net thead td {
-    padding: 9px;
+    padding: 8px;
 }
